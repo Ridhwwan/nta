@@ -1,7 +1,7 @@
 {
     "name": "NRC Train App",
     "short_name" : "NRC",
-    "start_url": "/login.html",
+    "start_url": "/login.html/",
     "icons": [
         {
             "src": "/icon.svg",
