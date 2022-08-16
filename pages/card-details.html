@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="icons/icon.svg" type="image/x-icon">
+    <title>Card-Details</title>
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="page-top">
+            <div onclick="back()" class="back">
+                <img src="../icons/arrow-square-left.svg" alt="">
+            </div>
+            <h5 class="page-header">Pay with card</h5>
+        </div>
+        
+        <div class="card-input-wrapper">
+            <div class="price-details">
+                    <div class="price-top">
+                        <span>Amount: <span class="amount"> N3500</span></span></span>
+                    </div>
+                    <div class="price-bottom">
+                        <div class="profile-email">Salaudeenridhwan@gmail.com</div>
+                    </div>
+                
+            </div>
+        
+
+            <!-- CARD DETAILS HERE -->
+
+            <form action="">
+                <div class="card-input">
+                    <div class="card-number">
+                        <label for="card-number">Card-number
+                            <input type="text" name="card-number" id="card-number" class="card-number-input">
+                        </label>
+                    </div>
+    
+                    <div class="card-date-cvv">
+                        <label for="date">Card valid till
+                            <input type="date" name="date" id="date" class="card-number-input">
+                        </label>
+    
+                        <!-- CVV -->
+    
+                        <label for="cvv">cvv
+                            <input type="number" name="cvv" id="cvv" class="card-number-input">
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="remember-check-wrapper">
+                    <div class="form-check remember-toggle">
+                        <input class="form-check-input card-remember-toggle" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Remember this card next time
+                        </label>
+                      </div>
+                </div>
+                  
+
+                <a href="loading page.html" class="submit-button" >Pay</a>
+
+            </form>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

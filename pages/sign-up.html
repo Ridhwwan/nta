@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="icons/icon.svg" type="image/x-icon">
+    <title>NRC</title>
+</head>
+<body>
+
+
+    <div class="log-in-container container">
+        <div class="login-header">
+            <i id="login-logo"></i>
+            <h5>Sign Up Page</h5>
+    </div>
+
+
+    <div id="error-sign"></div>
+
+    <!-- Sign Up FORM -->
+    <form action="../login.html" method="post">
+        <!-- Sign Up email -->
+        <label for="sign-email">Email</label>
+        <input type="text" name="sign-email" placeholder="Enter your email address" id="sign-email">
+        
+
+        
+        <!-- sign in password -->
+        <label for="sign-password">Password
+        <input type="password" name="sign-password" placeholder="Enter password" id="sign-password">
+
+        </label>
+        
+        <label for="resign-password">Re-enter Password
+            <input type="password" name="resign-repassword" placeholder="Re-Enter password" id="re-sign-password">
+        </label>
+        <!-- Reset password link -->
+        <div class="signup-pass-reset"><a href="#">Click here to reset password</a></div>
+
+                <!-- SIGN UP SUBMIT BUTTON -->
+
+                <a href="../login.html" class="submit-button" >
+                    Continue
+                </a>
+
+        <div class="log-down">
+            <div class="sign-up-gateway">Already have an account? <a href="../login.html" >Log In</a></div>
+
+            <div class="tc-policy">
+                By continuing, you agree to the NRC's <a href="#" class="terms" target="_blank">Terms of service</a>
+                    and <a href="#" class="privacy"> privacy policy</a>
+            </div>
+        </div>
+    </form>
+        
+        
+    </div>
+    
+    <script src="../js/authenticate.js"></script>
+</body>
+</html>

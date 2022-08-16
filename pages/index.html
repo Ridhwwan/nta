@@ -1,0 +1,65 @@
+<!-- BOOK TICKET HOME PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../icons/icon.svg" type="image/x-icon">
+    <title>Book Tickets</title>
+</head>
+<body>
+
+
+    <div class="container">
+        
+
+    <form action="" method="post"> 
+        <!-- Choose Destination Form -->
+
+        <!-- Select Departure-->
+        <label for="departure"></label>
+        <input type="text" name="departure" id="departure">
+
+        <!-- Select Destination -->
+
+        <label for="destination"></label>
+        <input type="text" name="destination" id="destination">
+
+        <select name="people-count"  id="people-count">
+
+            <!-- How many people -->
+            <option value="1">1 Person</option>
+            <option value="2">2 People</option>
+
+        </select>
+        <a href="pick-date.html" class="submit-button" >
+            <button type="submit">Pick Date</button>
+        </a>
+
+        <div class="log-down">
+            <div class="sign-up-gateway">Don't have an account? <a href="pages/sign-up" >Sign Up</a></div>
+
+            <div class="tc-policy">
+                By continuing, you agree to the NRC's <a href="#" class="terms" target="_blank">Terms of service</a>
+                 and <a href="#" class="privacy"> privacy policy</a>
+            </div>
+        </div>
+
+
+
+        
+
+    </form>
+    </div>
+
+
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="icons/icon.svg" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== BOOTSTRAP ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!--=============== NAV CSS ===============-->
+    <link rel="stylesheet" href="../css/navstyles.css">
+
+
+    <!--=============== MAIN CSS ===============-->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="page-top">
+            <h5 class="page-header">Book Ticket</h5>
+        </div>
+    <form action="">
+        <div class="destination container">
+            <div class="destiantion-input-container">
+    
+                <label for="from">Departure
+                    <select name="departure" id="departure">
+                        <option value="0" hidden selected></option>
+                        <option value="1" class="abj">Kubwa (Abuja)</option>
+                        <option value="2" class="abj">Idu (Abuja)</option>
+                        <option value="3" class="kd">Rigasa (Kaduna)</option>
+                        <option value="4" class="kd">Rijana (Kaduna)</option>
+                    </select>
+                </label>
+        
+                <label for="to">Destination
+                    <select name="destination" id="destination">
+                        <option value="0" hidden selected></option>
+                        <option value="1" class="abj">Kubwa (Abuja)</option>
+                        <option value="2" class="abj">Idu (Abuja)</option>
+                        <option value="3" class="kd">Rigasa (Kaduna)</option>
+                        <option value="4" class="kd">Rijana (Kaduna)</option>
+                    </select>
+                </label>
+            </div>
+    
+            <div  class="person-count-container">
+                <label for="how-many">How many people?
+                    <select name="how-many" id="how-many">
+                        <option value="0" hidden selected></option>
+        
+                        <option value="1p" class="person">1 Person</option>
+                        <option value="2p" class="person">2 People</option>
+                    </select>
+                </label>
+            </div>
+
+    
+
+            <div class="adult-status-container">
+    
+                <label for="adult-status">Is the person an adult?
+                    <select name="adult-status" id="adult-status">
+                        <option value="0" hidden selected></option>
+        
+                        <option value="adult" class="adult">An Adult</option>
+                        <option value="not-adult" class="not-adult">Not an adult</option>
+                    </select>
+                </label>
+            </div>
+            
+            <!-- Must click all options  for button to be clickable -->
+            <a href="pick-date.html" class="submit-button" >
+                Pick Date
+            </a>
+        </div>
+    </form>
+
+
+    
+        <!-- NAV BAR -->
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+
+                        <li class="nav__item">
+                            <a href="../pages/book-ticket.html" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </li>
+                        
+
+                        <li class="nav__item">
+                            <a href="../pages/tickethistory.html" class="nav__link">
+                                <i class='bx bx-history nav__icon'></i>
+                                <span class="nav__name">History</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../pages/profile.html" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">About</span>
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+        
+        <!-- END OF NAV BAR -->
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
