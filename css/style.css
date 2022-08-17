@@ -164,6 +164,7 @@ button, .btn-primary, .button-primary{
     padding: 1.6rem;
     text-align: center;
     border-radius: .3rem;
+    max-width: 100%;
 }
 .see-all{
     width: auto;
@@ -310,16 +311,10 @@ hr{
     border-radius: .6rem;
     margin-top: 1rem;
 }
-/* .profile-section{
-    max-width: 20vw;
 
-} */
 
 @media (max-width: 600px) {
-    /* .profile-section-cover{
-        flex-direction: column;
-        padding: 1rem .5rem;
-    } */
+
     form {
     margin: auto;
     width: 100%;
@@ -428,25 +423,3 @@ hr{
     border-radius: 0.3rem;
     }
   }
-/* 
-.vertical-scroll::-webkit-scrollbar {
-    display: none;
-}
-.vertical-scroll >{
-    width: 100vw;
-    text-align: center;
-}
-.ticketing-scroll{
-    overflow: scroll;
-}
-.ticketing-scroll::-webkit-scrollbar {
-    display: flex;
-} */
-/* 
-.ticketing-scroll{
-    overflow: scroll;
-}
-.ticketing-scroll::-webkit-scrollbar {
-    display: flex;
-} 
-*/
