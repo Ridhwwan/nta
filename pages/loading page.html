@@ -10,6 +10,13 @@
 
 
     <title>Transaction loading page</title>
+
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('../sw.js') 
+        }
+    </script>
 </head>
 <body>
     <div class="container transaction-loading-gif">
@@ -32,8 +39,8 @@
     <script>
 
         setTimeout(function(){
-                    window.location.href = 'tickethistory.html';
-        }, 5000);
+                    window.location.href = 'transaction-success.html';
+        }, 3000);
     </script>
 </body>
 </html>
